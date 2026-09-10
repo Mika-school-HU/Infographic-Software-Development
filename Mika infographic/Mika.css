@@ -1,3 +1,68 @@
+* {
+    font-family:'Courier New', Courier, monospace ;
+}
+
 body {
-    color: white;
+    color: #1a1a1a;
+}
+
+.Specialisaties {
+    text-align: center;
+    text-decoration: none;
+    background-color: #ebebeb;
+    border: none;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    margin-left: 100px;
+    margin-top: 50px;
+    width: 500px;
+    height: 800px;
+    border-radius: 8px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Specialisaties > div:first-child {
+    flex-shrink: 0;
+    background-color: rgb(253, 253, 253);
+    border-style: solid;
+    border-width: 5px;
+    border-color: red;
+    border-radius: 25px;
+    margin: 20px;
+}
+
+.Specialisaties > div:last-child {
+    overflow-y: auto;
+}
+
+.Specialisaties > div > div {
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
+    margin: 20px;
+    padding: 15px;
+}
+
+.Specialisaties > div > div > h4 {
+    display: inline-block;
+    background-color: rgb(216, 216, 216);
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(0, 0, 0);
+    border-radius: 25px;
+    margin: 20px;
+    padding: 4px 8px;
+}
+
+.Specialisaties > div > div > p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.Specialisaties > div > div > ul, li {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 10px;
+    list-style: square;
+    margin-left: 30px;
+    text-align: left;
 }
