@@ -1,0 +1,51 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    box-sizing: border-box;
+}
+
+body {
+    color: #1a1a1a;
+}
+
+.Box {
+    background-color: #ebebeb;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    border-radius: 8px;
+    margin: 30px 40px;
+    padding: 30px;
+}
+
+.Box h2 {
+    text-align: center;
+    background-color: #ffffff;
+    border: 3px solid #2f6feb;
+    border-radius: 20px;
+    display: table;
+    margin: 0 auto 24px;
+    padding: 8px 20px;
+}
+
+.Card {
+    background-color: #ffffff;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
+    margin: 16px 0;
+    padding: 16px 20px;
+}
+
+.Card h3 {
+    margin-top: 0;
+}
+
+.Card p {
+    margin-bottom: 0;
+}
+
+.Card ul {
+    margin: 0;
+    padding-left: 20px;
+}
+
+.Card li {
+    margin-bottom: 6px;
+}
