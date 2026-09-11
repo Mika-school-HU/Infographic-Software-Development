@@ -14,6 +14,55 @@ header {
     text-align: center;
 }
 
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 2rem;
+  background: #e4e4e4;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  position: sticky;
+}
+
+nav .logo {
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: #111111;
+  text-decoration: none;
+}
+
+nav ul {
+  display: flex;
+  gap: 0.5rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  display: block;
+  color: #333333;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 0.95rem;
+  padding: 0.6rem 1.1rem;
+  border-radius: 8px;
+  background: #f4f4f5;
+  transition: background 0.2s ease, color 0.2s ease;
+}
+
+nav ul li a:hover {
+  background: #111111;
+  color: #ffffff;
+}
+
 footer {
     background-color: #f0f0f0;
     color: #1a1a1a;
